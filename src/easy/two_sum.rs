@@ -12,10 +12,10 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     // Loop over the provided array and search for the solution
     for (index, value) in nums.iter().enumerate() {
         // Convert the index as i32 using idiomatic "as"
-        let index_32 = index as i32;
+        let index_32: i32 = index as i32;
 
         // Check if the solve_hash already has the complement
-        let has_compl = solve_hash.contains_key(value);
+        let has_compl: bool = solve_hash.contains_key(value);
 
         // If the value has a complement, return the values indexes
         if has_compl {
