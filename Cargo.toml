@@ -1,0 +1,11 @@
+[package]
+name = "leetcode-solutions"
+version = "0.1.0"
+edition = "2021"
+authors = ["Henrique Azank <henriqueazank@gmail.com>"]
+description = "A collection of LeetCode problem solutions in Rust"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/henrique-azank/leetcode-rust"
+
+# Documentation will appear on docs.rs
+documentation = "https://docs.rs/leetcode-solutions"
