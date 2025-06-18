@@ -68,6 +68,15 @@ pub fn brute_longest_palindrome(s: String) -> String {
     If we know that a substring s[i..j] is a palindrome, we
     can check if s[i-1] == s[j+1] to determine if s[i-1..j+1]
     is also a palindrome.
+
+    1. Create a 2D vector to store the results of the palindromic checks.
+    2. Initialize all single character substrings as palindromes.
+    3. Check for substrings of length 2 and mark them as palindromes
+       if the characters are equal.
+    4. For substrings of length greater than 2, check if the characters
+       at the start and end of the substring are equal, and if the
+       substring between them is a palindrome. If so, mark the substring
+       as a palindrome.
 */
 pub fn dynamic_longest_palindrome(s: String) -> String {
     // Instantiate the index and lenght of the longest palindromic substring

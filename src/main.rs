@@ -1,4 +1,15 @@
+use leetcode_solutions::medium::zigzag_conversion::naive_zigzag_conversion;
+
 fn main() {
+    // Get the string to convert
+    let s: String = "AB".to_string();
+
+    // Get the number of rows
+    let num_rows: i32 = 1;
+
+    // Call the naive zigzag conversion function
+    let result: String = naive_zigzag_conversion(s, num_rows);
+
     // Example usage of the brute_longest_palindrome function
-    println!("{:?}", (0..10).collect::<Vec<_>>());
+    println!("{:?}", result);
 }
