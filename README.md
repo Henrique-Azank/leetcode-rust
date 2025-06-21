@@ -58,7 +58,3 @@ Contributions welcome! Please:
 2. Include problem description in doc comment
 3. Add test cases
 4. Organize by difficulty level
-
-## License
-
-MIT © [Your Name]
