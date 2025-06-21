@@ -31,6 +31,8 @@ This is not a runnable crate but rather a collection of solution implementations
 ### Easy
 
 - [1. Two Sum](src/easy/two_sum.rs)
+- [9. Palindrome number](src/easy/palindrome_number.rs)
+- [13. Roman to integer](src/easy/roman_to_int.rs)
 
 ### Medium
 
@@ -38,10 +40,15 @@ This is not a runnable crate but rather a collection of solution implementations
 - [3. Longest Substring Without Repeating Characters](src/medium/longest_substr_wo_repeating.rs)
 - [5. Longest Palindromic Substring](src/medium/longest_palindromic_substr.rs)
 - [6. Zigzag Conversion](src/medium/zigzag_conversion.rs)
+- [7. Reverse integer](src/medium/reverse_integer.rs)
+- [8. String to integer (ATOI)](src/medium/ascii_to_integer.rs)
+- [11. Container with the most water](src/medium/water_container.rs)
+- [12. Integer to roman](src/medium/integer_to_roman.rs)
 
 ### Hard
 
 - [4. Median of Two Sorted Arrays](src/hard/median_arrays.rs)
+- [10. Regular expression matching](src/hard/regular_expression_matching.rs)
 
 ## Contribution
 
