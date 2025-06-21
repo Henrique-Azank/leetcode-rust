@@ -5,3 +5,4 @@ pub mod longest_substr_wo_repeating;
 pub mod reverse_integer;
 pub mod zigzag_conversion;
 pub mod ascii_to_integer;
+pub mod water_container;
