@@ -33,6 +33,7 @@ This is not a runnable crate but rather a collection of solution implementations
 - [1. Two Sum](src/easy/two_sum.rs)
 - [9. Palindrome number](src/easy/palindrome_number.rs)
 - [13. Roman to integer](src/easy/roman_to_int.rs)
+- [14. Longest common prefix](src/easy/longest_common_prefix.rs)
 
 ### Medium
 
