@@ -54,5 +54,57 @@ pub fn three_sum_loop(nums: Vec<i32>) -> Vec<Vec<i32>> {
 }
 
 
+/*
+    Two pointer approach
+*/
+pub fn two_pointer_3_sum(nums: Vec<i32>) -> Vec<Vec<i32>> {
+    // Sort the input array
+    let mut nums = nums;
+    nums.sort();
 
+    // Initialize the result vector
+    let mut result: Vec<Vec<i32>> = Vec::new();
+
+    // Loop through the array
+    for i in 0..nums.len() {
+        // Skip duplicates
+        if i > 0 && nums[i] == nums[i - 1] {
+            continue;
+        }
+
+        // Initialize two pointers
+        let mut left = i + 1;
+        let mut right = nums.len() - 1;
+
+        // While left pointer is less than right pointer
+        while left < right {
+            let sum = nums[i] + nums[left] + nums[right];
+
+            if sum == 0 {
+                // Found a triplet
+                result.push(vec![nums[i], nums[left], nums[right]]);
+
+                // Skip duplicates for left pointer
+                while left < right && nums[left] == nums[left + 1] {
+                    left += 1;
+                }
+                // Skip duplicates for right pointer
+                while left < right && nums[right] == nums[right - 1] {
+                    right -= 1;
+                }
+
+                // Move both pointers inward
+                left += 1;
+                right -= 1;
+            } else if sum < 0 {
+                left += 1; // Need a larger sum
+            } else {
+                right -= 1; // Need a smaller sum
+            }
+        }
+    }
+
+    result
+
+}
 
