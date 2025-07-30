@@ -7,3 +7,4 @@ pub mod zigzag_conversion;
 pub mod ascii_to_integer;
 pub mod water_container;
 pub mod integer_to_roman;
+pub mod three_sum;
