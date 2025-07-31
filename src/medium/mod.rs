@@ -8,3 +8,4 @@ pub mod ascii_to_integer;
 pub mod water_container;
 pub mod integer_to_roman;
 pub mod three_sum;
+pub mod three_sum_closest;

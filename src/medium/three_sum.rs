@@ -105,6 +105,5 @@ pub fn two_pointer_3_sum(nums: Vec<i32>) -> Vec<Vec<i32>> {
     }
 
     result
-
 }
 

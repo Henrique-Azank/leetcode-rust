@@ -46,6 +46,7 @@ This is not a runnable crate but rather a collection of solution implementations
 - [11. Container with the most water](src/medium/water_container.rs)
 - [12. Integer to roman](src/medium/integer_to_roman.rs)
 - [15. 3Sum](src/medium/three_sum.rs)
+- [16. 3Sum Closest](src/medium/three_sum_closest.rs)
 
 ### Hard
 
