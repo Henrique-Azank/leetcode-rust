@@ -47,6 +47,7 @@ This is not a runnable crate but rather a collection of solution implementations
 - [12. Integer to roman](src/medium/integer_to_roman.rs)
 - [15. 3Sum](src/medium/three_sum.rs)
 - [16. 3Sum Closest](src/medium/three_sum_closest.rs)
+- [17. Phone Number Letters](src/medium/letter_combinations_phone.rs)
 
 ### Hard
 
